@@ -45,6 +45,7 @@ test -s build-direct.sh
 test -s build-direct-chain.sh
 grep -q SCALA_213_FROM compile.sh
 grep -q SCALA_213_SEED compile.sh
+grep -q need_ant_contrib compile.sh
 grep -q SCALA_213_FROM_PENDING build-direct-chain.sh
 test -s scripts/scalac
 test -d scala-official.git
